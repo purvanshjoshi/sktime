@@ -12,17 +12,6 @@ via its ``"object_type"`` tag.
 
 .. currentmodule:: sktime.registry._base_classes
 
-General types
--------------
-
-.. autosummary::
-    :toctree: auto_generated/
-    :template: class.rst
-    :nosignatures:
-
-    object
-    estimator
-
 Specific estimator types
 ------------------------
 
@@ -52,3 +41,14 @@ Other object types
     splitter
     dataset
     catalogue
+
+General types
+-------------
+
+.. autosummary::
+    :toctree: auto_generated/
+    :template: class.rst
+    :nosignatures:
+
+    object
+    estimator

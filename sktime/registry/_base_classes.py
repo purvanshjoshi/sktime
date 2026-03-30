@@ -56,6 +56,8 @@ class object(_BaseScitypeOfObject):
     inherit from the base class documented here.
 
     Base class: :class:`sktime.base.BaseObject`
+
+    Tutorial: :ref:`/examples/00_sktime_intro.ipynb`
     """
 
     _tags = {
@@ -83,6 +85,8 @@ class estimator(_BaseScitypeOfObject):
     a ``fit`` method and store the results of the fitting process.
 
     Base class: :class:`sktime.base.BaseEstimator`
+
+    Tutorial: :ref:`/examples/00_sktime_intro.ipynb`
     """
 
     _tags = {
@@ -111,6 +115,8 @@ class aligner(_BaseScitypeOfObject):
     typically by finding a mapping between their time indices or elements.
 
     Base class: :class:`sktime.alignment.base.BaseAligner`
+
+    Tutorial: :ref:`/examples/06_distances_kernels_alignment.ipynb`
     """
 
     _tags = {
@@ -139,6 +145,8 @@ class classifier(_BaseScitypeOfObject):
     from one or more time series.
 
     Base class: :class:`sktime.classification.base.BaseClassifier`
+
+    Tutorial: :ref:`/examples/02_classification.ipynb`
     """
 
     _tags = {
@@ -167,6 +175,8 @@ class clusterer(_BaseScitypeOfObject):
     into clusters based on some measure of similarity.
 
     Base class: :class:`sktime.clustering.base.BaseClusterer`
+
+    Tutorial: :ref:`/examples/clustering/partition_based_clustering.ipynb`
     """
 
     _tags = {
@@ -219,6 +229,8 @@ class forecaster(_BaseScitypeOfObject):
     time series from its past values and potentially other information.
 
     Base class: :class:`sktime.forecasting.base.BaseForecaster`
+
+    Tutorial: :ref:`/examples/01_forecasting.ipynb`
     """
 
     _tags = {
@@ -421,6 +433,8 @@ class detector(_BaseScitypeOfObject):
     outliers, or structural changes in one or more time series.
 
     Base class: :class:`sktime.detection.base.BaseDetector`
+
+    Tutorial: :ref:`/examples/07_detection_anomaly_changepoints.ipynb`
     """
 
     _tags = {
@@ -472,6 +486,8 @@ class transformer(_BaseScitypeOfObject):
     time series.
 
     Base class: :class:`sktime.transformations.base.BaseTransformer`
+
+    Tutorial: :ref:`/examples/03_transformers.ipynb`
     """
 
     _tags = {
