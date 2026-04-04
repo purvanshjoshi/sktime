@@ -4,16 +4,16 @@
 Estimator types
 ===============
 
-This section lists the various estimator types (scitypes) available in ``sktime``.
+This section lists the various object types (scitypes) available in ``sktime``.
 
-Each estimator type corresponds to a specific unified interface and base class.
+Each object type corresponds to a specific unified interface and base class.
 Every object in ``sktime`` has one or more scitypes, which can be inspected
 via its ``"object_type"`` tag.
 
 .. currentmodule:: sktime.registry._base_classes
 
-Specific estimator types
-------------------------
+AI algorithms
+-------------
 
 .. autosummary::
     :toctree: auto_generated/
@@ -29,8 +29,20 @@ Specific estimator types
     regressor
     transformer
 
-Other object types
-------------------
+Data handling
+-------------
+
+.. autosummary::
+    :toctree: auto_generated/
+    :template: class.rst
+    :nosignatures:
+
+    splitter
+    dataset
+    catalogue
+
+Evaluation and metrics
+----------------------
 
 .. autosummary::
     :toctree: auto_generated/
@@ -38,9 +50,6 @@ Other object types
     :nosignatures:
 
     metric
-    splitter
-    dataset
-    catalogue
 
 General types
 -------------
